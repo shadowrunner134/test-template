@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header-top {
+    background-color: red; 
+    display: flex; 
+    justify-content: space-between;
+}
+.contacts {
+    background-color: aquamarine;
+}
+.logo {
+    background-color: rgb(255, 253, 127);
+}
+.links {
+    background-color: blue;
+}
+.header-nav {
+display: flex;
+justify-content: center;
+}
+.nav-item {
+    padding: 0px 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
